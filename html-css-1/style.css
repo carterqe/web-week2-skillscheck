@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    height: 85px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.company {
+    margin-right: 875px;
+    font-size: 35px;
+    color: white;
+}
+
+li {
+    margin-left: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    margin: 0;
+    display: flex;
+    font-size: 70px;
+
+}
+
+main {
+    display: flex;
+    /* justify-content: center;
+    justify-content: space-around; */
+    width: 100%;
+    height: 1000px;
+}
+
+.round-blocks {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+}
+
+.main-round-block1 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.main-round-block2 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.main-round-block3 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.square-blocks{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 65%;
+}
+
+.square-block1 {
+    background-color: orange;
+    height: 250px;
+    width: 500px;
+
+}
+
+.square-block2 {
+    background-color: orange;
+    height: 250px;
+    width: 500px;
+
+}
+
+.paragraph {
+    position: absolute;
+    top: 950px;
+    width: 300px;
+    left: 300px;
+}
+
+img {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    top: 950px;
+    right: 450px;
+}
+
+footer {
+    height: 125px;
+    background-color: #36454f;
+    width: 100%;
+    position: absolute;
+    top: 130%;
+}
